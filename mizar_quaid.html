@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mizar_e_Quaid</title>
+    <style>
+        body, html {
+           margin: 0;
+           padding: 0;
+           height: 113%;
+           display: flex;
+           align-items: center;
+           justify-content: center;
+           font-family: Times New Roman;
+           background-color:bisque;
+        }
+        .box{
+           width: 90vw; 
+           max-width: 1350px; 
+           height: auto; 
+           border: 1px solid beige;
+           overflow: hidden;
+           position: absolute;
+           top: 2%; 
+           border-radius: 1px;
+           background-color:beige;
+           opacity: 0; 
+            transform: translateY(50px); 
+            animation: fadeInUp 2.5s ease forwards; 
+        }
+        @keyframes fadeInUp {
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }  
+        .para{ 
+           font-size: 1.4vw; 
+           line-height: 4vh; 
+           color: #333; 
+           text-align: justify;
+           font-family: Times New Roman; 
+           margin: 3% 7% 3% 7%;
+        }
+        @media (max-width: 768px) {
+            .para {
+                font-size: 1.8vw; 
+                margin: 5% 6%;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            .para {
+                font-size: 3.5vw; 
+                margin: 5% 5%;
+            }
+        }
+
+        @media (max-width: 360px) {
+            .para {
+                font-size: 4vw;
+                margin: 5% 4%;
+            }
+        }
+    </style>
+</head>
+<body>
+   <div class="box">
+     <hr style="border: 1px solid bisque; width: 100%; margin: 6.5% 0%;">
+     <p class="para">
+        The design of the Mazar-e-Quaid is a blend of <b>1960s modernist architecture</b>, influenced by the <b>Samanid Mausoleum</b> in <b>Bukhara, Uzbekistan</b>, which dates back to between <b>892 and 943 CE</b>. The mausoleum complex also houses the tombs of Jinnah's sister, <b>Fatima Jinnah</b>, and the first and eighth Prime Ministers of Pakistan, <b>Liaquat Ali Khan</b> and <b>Nurul Amin</b>, respectively.
+     </p>
+     <p class="para">
+        The process of selecting a design for the mausoleum was complex and involved multiple architects. Initially, in <b>1954</b>, an <b>Indian architect</b> was selected but later dismissed. In <b>1955</b>, a <b>Turkish architect</b>'s plan was also rejected.
+     </p>
+     <p class="para">
+        The <b>Government of Pakistan</b> then held an <b>international competition</b> in <b>1957</b>, which was won by <b>British architect William Whitfield</b>. However, <b>Fatima Jinnah</b>, who had a strong influence over the project, vetoed the design and took control of the process. She ultimately commissioned <b>Yahya Merchant</b>, a <b>Bombay-based architect</b> and a personal friend of Jinnah, to design the monument.
+      </p>
+     <p class="para">
+        The <b>foundation stone</b> of the mausoleum was laid by <b>President Ayub Khan</b> on <b>31 July 1960</b>, and the monument was inaugurated by <b>President Yahya Khan</b> on <b>18 January 1971</b>. The surrounding gardens were not completed until <b>24 December 2000</b>.
+      </p>
+      <hr style="border: 1px solid bisque; width: 100%; margin: 6.5% 0%;">
+   </div>
+</body>
+</html>

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tomb_Jahangir</title>
+    <style>
+        body, html {
+           margin: 0;
+           padding: 0;
+           height: 121%;
+           display: flex;
+           align-items: center;
+           justify-content: center;
+           font-family: Times New Roman;
+           background-color:bisque;
+        }
+        .box{
+           width: 90vw; 
+           max-width: 1350px; 
+           height: auto; 
+           border: 1px solid beige;
+           overflow: hidden;
+           position: absolute;
+           top: 2%; 
+           border-radius: 1px;
+           background-color:beige;
+           opacity: 0; 
+            transform: translateY(50px); 
+            animation: fadeInUp 2.5s ease forwards; 
+        }
+        @keyframes fadeInUp {
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }  
+        .para{ 
+           font-size: 1.4vw; 
+           line-height: 4vh; 
+           color: #333; 
+           text-align: justify;
+           font-family: Times New Roman; 
+           margin: 3% 7% 3% 7%;
+        }
+        @media (max-width: 768px) {
+            .para {
+                font-size: 1.8vw; 
+                margin: 5% 6%;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            .para {
+                font-size: 3.5vw; 
+                margin: 5% 5%;
+            }
+        }
+
+        @media (max-width: 360px) {
+            .para {
+                font-size: 4vw;
+                margin: 5% 4%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <hr style="border: 1px solid bisque; width: 100%; margin: 6.5% 0%;">
+        <p class="para">
+            The tomb was built in <b>Jahangir's pleasure garden</b>, the <b>Dilkusha Garden</b>, which had been laid out in <b>1557</b>. The <b>Tomb of Asif Khan</b> and the <b>Akbari Sarai</b> are located immediately west of Jahangir's tomb complex. The tomb of Jahangir's wife <b>Nur Jahan</b> is slightly southwest of Asif Khan's tomb.
+        </p>
+        <p class="para">
+            <b>Jahangir</b>, who ruled from <b>1605 to 1627</b>, died in <b>Kashmir</b> on <b>28 October 1627</b>. His body was brought to Lahore on <b>12 November 1627</b>, and he was buried in the <b>Dilkusha Garden</b>, a favorite spot of his. His son, <b>Shah Jahan</b>, ordered the construction of the mausoleum in a <b>Mughal style</b> influenced by <b>Safavid architecture</b>. The tomb is unique in that it lacks a central dome, which Jahangir reportedly forbade.
+        </p>
+        <p class="para">
+            Construction started in <b>1627</b>, took ten years, and cost <b>Rs 10 Lakh</b>. The tomb complex was desecrated and pillaged under <b>Sikh rule</b>, with materials used for the <b>Golden Temple</b> in <b>Amritsar</b>. Further desecration occurred when <b>Musa Sahib</b> was buried on the tomb's grounds in <b>1828</b>.
+        </p>
+        <p class="para">
+            The site suffered further damage under <b>British rule</b> when a railway line was built between the tombs of <b>Asif Khan</b> and <b>Nur Jahan</b>. The site has also been repeatedly threatened by <b>flooding</b> from the <b>Ravi River</b>, notably in <b>1988</b> when the site was submerged under <b>10 feet of water</b> for five days.
+        </p> 
+        <hr style="border: 1px solid bisque; width: 100%; margin: 6.5% 0%;">
+    </div>
+</body>
+</html>

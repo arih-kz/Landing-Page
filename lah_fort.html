@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lahore_Fort</title>
+    <style>
+        body, html {
+           margin: 0;
+           padding: 0;
+           height: 113%;
+           display: flex;
+           align-items: center;
+           justify-content: center;
+           font-family: Times New Roman;
+           background-color:bisque;
+        }
+        .box{
+           width: 90vw; 
+           max-width: 1350px; 
+           height: auto; 
+           border: 1px solid beige;
+           overflow: hidden;
+           position: absolute;
+           top: 2%; 
+           border-radius: 1px;
+           background-color:beige;
+           opacity: 0; 
+            transform: translateY(50px); 
+            animation: fadeInUp 2.5s ease forwards; 
+        }
+        @keyframes fadeInUp {
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }      
+        .para{ 
+           font-size: 1.4vw; 
+           line-height: 4vh; 
+           color: #333; 
+           text-align: justify;
+           font-family: Times New Roman; 
+           margin: 3% 7% 3% 7%;
+        }
+        @media (max-width: 768px) {
+            .para {
+                font-size: 1.8vw; 
+                margin: 5% 6%;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            .para {
+                font-size: 3.5vw; 
+                margin: 5% 5%;
+            }
+        }
+
+        @media (max-width: 360px) {
+            .para {
+                font-size: 4vw;
+                margin: 5% 4%;
+            }
+        }
+
+    </style>
+</head>
+<body>
+  <div class="box">
+     <hr style="border: 1px solid bisque; width: 100%; margin: 6.5% 0%;">
+     <p class="para">
+        The Lahore Fort is notable for having been almost entirely rebuilt in the <b>17th century</b>. The first record of a fortified structure at the site was regarding an <b>11th-century mudbrick fort</b>. The foundations of the modern Lahore Fort date to <b>1566</b> during the reign of Emperor Akbar.
+     </p>
+     <p class="para">
+        Additions from the <b>Shah Jahan period</b> are characterized by luxurious marble with <b>inlaid Persian floral designs</b>. The fort's grand and iconic <b>Alamgiri Gate</b> was constructed by the last of the great Mughal emperors, <b>Aurangzeb</b>, and faces the renowned <b>Badshahi Mosque</b>.
+     </p>
+     <p class="para">
+        After the fall of the Mughal Empire, Lahore Fort was used as the residence of <b>Emperor Ranjit Singh</b>, founder of the Sikh Empire. The Sikhs made several additions to the fort. It then passed to the control of the East India Company after they annexed Punjab following their victory over the Sikhs at the <b>Battle of Gujrat in February 1849</b>.
+     </p>
+     <p class="para">
+        In <b>1981</b>, the fort was inscribed as a <b>UNESCO World Heritage Site</b> for its <b>"outstanding repertoire"</b> of Mughal monuments dating from the era when the empire was at its artistic and aesthetic zenith. Federal Government of Pakistan now owns it. (1947–present)
+     </p>
+     <hr style="border: 1px solid bisque; width: 100%; margin: 6.5% 0%;">
+   </div>
+</body>
+</html>
+

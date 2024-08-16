@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lake_Saif_Ul_Malook</title>
+    <style>
+        body, html {
+           margin: 0;
+           padding: 0;
+           height: 104%;
+           display: flex;
+           align-items: center;
+           justify-content: center;
+           font-family: Times New Roman;
+           background-color:bisque;
+        }
+        .box{
+           width: 90vw; 
+           max-width: 1350px; 
+           height: auto; 
+           border: 1px solid beige;
+           overflow: hidden;
+           position: absolute;
+           top: 2%; 
+           border-radius: 1px;
+           background-color:beige;
+           opacity: 0; 
+            transform: translateY(50px); 
+            animation: fadeInUp 2.5s ease forwards; 
+        }
+        @keyframes fadeInUp {
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }  
+        .para{ 
+           font-size: 1.4vw; 
+           line-height: 4vh; 
+           color: #333; 
+           text-align: justify;
+           font-family: Times New Roman; 
+           margin: 3% 7% 3% 7%;
+        }
+        @media (max-width: 768px) {
+            .para {
+                font-size: 1.8vw; 
+                margin: 5% 6%;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            .para {
+                font-size: 3.5vw; 
+                margin: 5% 5%;
+            }
+        }
+
+        @media (max-width: 360px) {
+            .para {
+                font-size: 4vw;
+                margin: 5% 4%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+       <hr style="border: 1px solid bisque; width: 100%; margin: 6.5% 0%;">
+       <p class="para">
+            The lake is accessible from Naran during the summer season, but access is limited in winter due to heavy snowfall and landslides. <b>Saiful Muluk</b> was formed by <b>glacial moraines</b> that blocked the stream passing through the valley. The <b>Kaghan Valley</b> was formed in the <b>Pleistocene Period</b>, almost <b>300,000 years ago</b>, when the area was covered with ice. Melting water collected into the lake.
+        </p>
+        <p class="para">
+            The lake has rich <b>eco-diversity</b> and hosts many species of <b>blue-green algae</b>. Large <b>brown trout</b>, up to about seven kilograms, are found in the lake. Approximately <b>26 species</b> of vascular plants exist in the area, with <b>Asteraceae</b> being the most common. Other species include <b>Ranunculaceae</b>, <b>Compositae</b>, <b>Cruciferae</b>, <b>Gramineae</b>, <b>Apiaceae</b>, <b>Leguminosae</b>, <b>Scrophulariaceae</b>, and <b>Polygonaceae</b>.
+        </p>
+        <p class="para">
+            The lake is named after a legendary prince. A fairy tale called <b>Saiful Muluk</b>, later turned into a poem by the <b>Sufi poet Mian Muhammad Bakhsh</b>, tells the story of the Egyptian Prince Saiful Malook who fell in love with a fairy princess named <b>Princess Badri-ul-Jamala</b> at the lake.
+        </p> 
+        <hr style="border: 1px solid bisque; width: 100%; margin: 6.5% 0%;">
+    </div>
+</body>
+</html>

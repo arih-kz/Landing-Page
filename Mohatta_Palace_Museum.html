@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohatta_Palace_Museum</title>
+    <style>
+        body, html {
+           margin: 0;
+           padding: 0;
+           height: 100%;
+           display: flex;
+           align-items: center;
+           justify-content: center;
+           font-family: Times New Roman;
+           background-color:bisque;
+        }
+        .box{
+           width: 90vw; 
+           max-width: 1350px; 
+           height: auto; 
+           border: 1px solid beige;
+           overflow: hidden;
+           position: absolute;
+           top: 2%; 
+           border-radius: 1px;
+           background-color:beige;
+           opacity: 0; 
+            transform: translateY(50px); 
+            animation: fadeInUp 2.5s ease forwards; 
+        }
+        @keyframes fadeInUp {
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }  
+        .para{ 
+           font-size: 1.4vw; 
+           line-height: 4vh; 
+           color: #333; 
+           text-align: justify;
+           font-family: Times New Roman; 
+           margin: 3% 7% 3% 7%;
+        }
+        @media (max-width: 768px) {
+            .para {
+                font-size: 1.8vw; 
+                margin: 5% 6%;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            .para {
+                font-size: 3.5vw; 
+                margin: 5% 5%;
+            }
+        }
+
+        @media (max-width: 360px) {
+            .para {
+                font-size: 4vw;
+                margin: 5% 4%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <hr style="border: 1px solid bisque; width: 100%; margin: 6.5% 0%;">
+        <p class="para">
+            The palace was constructed using <b>pink Jodhpur stone</b> and local <b>yellow stone</b> from nearby <b>Gizri</b>. It features <b>nine domes</b>, with a <b>centre dome</b>, and windows with <b>stained glass</b> in an <b>arched</b> style. The "<b>barsati</b>" (terrace) included a family temple dedicated to <b>Lord Shiva (Hindu God).</b>
+        </p>
+        <p class="para">
+            In <b>1995</b>, the <b>Government of Sindh</b> purchased the palace for conversion into a <b>museum</b>. A <b>trust</b> was established to manage the property, ensuring it would not be sold or used for commercial purposes. The <b>Mohatta Palace Museum</b> officially opened in <b>1999</b>.
+        </p>
+        <p class="para">
+            Next to the main building, a small collection of "<b>English</b>" statues, once prominent in Karachi, is displayed. These statues, including those of <b>Queen Victoria</b> and <b>Raj soldiers</b>, were damaged during political turmoil in <b>1960–61</b>.
+        </p>
+        <hr style="border: 1px solid bisque; width: 100%; margin: 6.5% 0%;">
+    </div>
+</body>
+</html>

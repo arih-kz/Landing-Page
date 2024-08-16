@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shalamar_Garden</title>
+    <style>
+        body, html {
+           margin: 0;
+           padding: 0;
+           height: 127%;
+           display: flex;
+           align-items: center;
+           justify-content: center;
+           font-family: Times New Roman;
+           background-color:bisque;
+        }
+        .box{
+           width: 90vw; 
+           max-width: 1350px; 
+           height: auto; 
+           border: 1px solid beige;
+           overflow: hidden;
+           position: absolute;
+           top: 2%; 
+           border-radius: 1px;
+           background-color:beige;
+           opacity: 0; 
+            transform: translateY(50px); 
+            animation: fadeInUp 2.5s ease forwards; 
+        }
+        @keyframes fadeInUp {
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }  
+        .para{ 
+           font-size: 1.4vw; 
+           line-height: 4vh; 
+           color: #333; 
+           text-align: justify;
+           font-family: Times New Roman; 
+           margin: 3% 7% 3% 7%;
+        }
+        @media (max-width: 768px) {
+            .para {
+                font-size: 1.8vw; 
+                margin: 5% 6%;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            .para {
+                font-size: 3.5vw; 
+                margin: 5% 5%;
+            }
+        }
+
+        @media (max-width: 360px) {
+            .para {
+                font-size: 4vw;
+                margin: 5% 4%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <hr style="border: 1px solid bisque; width: 100%; margin: 6.5% 0%;">
+        <p class="para">
+            The gardens' design was influenced by the older Shalimar Gardens in Kashmir, built by Shah Jahan's father, <b>Emperor Jahangir</b>. Unlike the Kashmir gardens, which utilized natural slopes, the Lahore waterworks required extensive engineering for artificial cascades and terraces. The site was chosen for its stable <b>water supply</b>. The project was managed by <b>Khalilullah Khan</b> and <b>Mulla Alaul Maulk Tuni</b>, with <b>Ali Mardan Khan</b> responsible for the construction, including a <b>100-mile-long canal</b> to bring water from Kashmir. The Shalimar Gardens originally belonged to the Arain Mian family of <b>Baghbanpura</b>. <b>Mian Muhammad Yusuf</b>, head of the family, ceded the site to Shah Jahan. In return, the family governed the gardens for over <b>350 years</b>.
+        </p>
+        <p class="para">
+            Construction began on <b>12 June 1641</b> and took <b>18 months</b> to complete. During the Sikh era, much of the garden's <b>marble</b> was pillaged for the <b>Golden Temple</b> and the <b>Ram Bagh Palace</b> in Amritsar. The gardens' <b>agate gate</b> was stripped and sold. In <b>1806</b>, <b>Maharaja Ranjit Singh</b> ordered repairs. The gardens were nationalized in <b>1962</b> by General <b>Ayub Khan</b>, who also forbade the <b>Mela Chiraghan festival</b> in <b>1958</b>.
+        </p>
+        <p class="para">
+            The Shalimar Gardens are a rectangle aligned along a north–south axis, measuring <b>658 metres by 258 metres</b> and covering <b>16 hectares</b>. Each terrace level is <b>4–5 metres</b> higher than the previous one. The <b>uppermost terrace</b>, named <b>Bagh-e-Farah Baksh</b>, means "Bestower of Pleasure." The <b>second</b> and <b>third terraces</b> are known as <b>Bagh-e-Faiz Baksh</b>, meaning "Bestower of Goodness." The terraces are divided into smaller squares by long fountains, with cascades flowing over marble paths into a large pool, known as a <b>haūz</b>, with a seating pavilion.
+        </p>
+        <hr style="border: 1px solid bisque; width: 100%; margin: 6.5% 0%;">
+    </div>
+</body>
+</html>

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ranikot_fort</title>
+    <style>
+        body, html {
+           margin: 0;
+           padding: 0;
+           height: 102%;
+           display: flex;
+           align-items: center;
+           justify-content: center;
+           font-family: Times New Roman;
+           background-color:bisque;
+        }
+        .box{
+           width: 90vw; 
+           max-width: 1350px; 
+           height: auto; 
+           border: 1px solid beige;
+           overflow: hidden;
+           position: absolute;
+           top: 2%; 
+           border-radius: 1px;
+           background-color:beige;
+           opacity: 0; 
+            transform: translateY(50px); 
+            animation: fadeInUp 2.5s ease forwards; 
+        }
+        @keyframes fadeInUp {
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }  
+        .para{ 
+           font-size: 1.4vw; 
+           line-height: 4vh; 
+           color: #333; 
+           text-align: justify;
+           font-family: Times New Roman; 
+           margin: 3% 7% 3% 7%;
+        }
+        @media (max-width: 768px) {
+            .para {
+                font-size: 1.8vw; 
+                margin: 5% 6%;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            .para {
+                font-size: 3.5vw; 
+                margin: 5% 5%;
+            }
+        }
+
+        @media (max-width: 360px) {
+            .para {
+                font-size: 4vw;
+                margin: 5% 4%;
+            }
+        }
+    </style>
+</head>
+<body>
+     <div class="box">
+        <hr style="border: 1px solid bisque; width: 100%; margin: 6.5% 0%;">
+        <p class="para">
+            <b>Ranikot Fort</b> is located <b>90 kilometers</b> north of <b>Hyderabad</b> on the <b>Indus Highway (N55)</b>. It is accessible via a rugged <b>21-kilometer</b> road from Sann, the nearest town, and is within the <b>Kirthar National Park</b>, the second-largest national park in Pakistan. The fort's original purpose and architects are unknown. It was once thought to be built by the <b>Sassanians</b>, <b>Scythians</b>, <b>Parthians</b>, or <b>Bactrian Greeks</b>, but recent evidence suggests it originated under the <b>Talpurs</b>, specifically during the administration of <b>Nawab Wali Muhammed Leghari</b>, the <b>Prime Minister of Sindh</b>.
+        </p>
+        <p class="para">
+            <b>Archaeologists</b> now date its first construction to the <b>17th century</b>, with significant reconstruction by the Talpur dynasty in <b>1812</b>. <b>Radiocarbon tests</b> confirm renovations of the <b>Sann Gate</b> occurred between the early <b>18th and early 19th</b> centuries. The fort, measuring <b>31 kilometers</b> in length, connects several mountains of the <b>Kirthar Hills</b>. It features <b>semi-circular bastions</b> and a zig-zag wall. Inside the main fort is the smaller <b>Miri Fort</b>, believed to have served as the palace of the <b>Mir royal family</b>. The fort has four entry gates: <b>Sann Gate</b>, <b>Amri Gate</b>, <b>Shah-Pere Gate</b>, and <b>Mohan Gate</b>.
+        </p>
+        <hr style="border: 1px solid bisque; width: 100%; margin: 6.5% 0%;">
+     </div>
+</body>
+</html>
